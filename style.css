@@ -1,0 +1,104 @@
+body {
+    font-family: "Lato", "sans sarif";
+    margin: 0%;
+    padding: 0%;
+}
+
+.tablink {
+    background-color: #555;
+    ;
+    color: white;
+    cursor: pointer;
+    display: flex;
+
+}
+
+.btndiv {
+
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+
+
+}
+
+
+.two {
+    background-color: #555;
+    color: white;
+    border: 2px solid black;
+    transition: all 400ms ease-out,
+        color 400ms ease-out,
+        border 400ms ease-out;
+
+
+}
+
+.two:nth-child(odd):hover {
+    background: #E00462;
+    color: #fff;
+    border: none;
+
+}
+
+.two:nth-child(even):hover {
+    background: rgb(16, 224, 16);
+    color: #fff;
+    border: none;
+
+}
+
+
+
+button {
+    width: 230px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+
+#Delhi {
+    background-color: rgb(255, 208, 0);
+
+}
+
+#Islamabad {
+    background-color: green;
+}
+
+#Dhaka {
+    background-color: rgb(11, 167, 19);
+}
+
+#Colombo {
+    background-color: rgb(19, 19, 19);
+}
+
+#Thimpu {
+    background-color: red;
+}
+
+#Kabul {
+    background-color: red;
+}
